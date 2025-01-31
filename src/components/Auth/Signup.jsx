@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import './Auth.css';
-import img from '../../assets/Signup.png';
+import img from '../../assets/signup.png';
 
 const BACKEND_URL = 'https://notesapp-backend-6auh.onrender.com';
 
