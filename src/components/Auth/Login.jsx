@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import './Auth.css';
-import img from '../../assets/Login.png';
+import img from '../../assets/login.png';
 const BACKEND_URL = 'http://localhost:5000';
 
 const Login = ({ setIsAuthenticated }) => {
